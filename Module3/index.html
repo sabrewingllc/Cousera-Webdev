@@ -12,19 +12,13 @@
   </head>
 <body>
 <header>
-  <nav id="header-nav" class="navbar navbar-default">
-    <div class="container">
+  <nav  id="header-nav" class="navbar navbar-default">
+    <div class="container-fluid">
       <div class="navbar-header">
-        
-        
+         
         <div class="navbar-brand">
           <a href="index.html"><h1 >Food, LLC</h1>
           </a>
-<!--          <p>
-              <img src="" alt="*">
-              <span>Kosher Certified</span>
-          </p>
-          -->
         </div>
 
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
@@ -34,7 +28,13 @@
           <span class="icon-bar"></span>
         </button>
       </div>
+    </div>
 
+  </nav>
+</header>
+
+    <div id="dropdown" class="container-fluid">
+        
       <div id="collapsable-nav" class="collapse navbar-collapse">
         <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs ">
           <li>
@@ -52,10 +52,7 @@
 
         </ul>
       </div>
-
     </div>
-  </nav>
-</header>
 
 <div class="text-center">
   <h2><b>Our Menu</b></h2>
@@ -63,21 +60,22 @@
 
 
 
-<div id="main-content" class="container">
+<div id="main-content" class="container-fluid">
   <div class="row">
-    <div class="col-xs-12 centered">
+    <div id="chicken-tile" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-centered">
       <a href="#chicken">
-        <div class="menuItem" id="chicken">Chicken</div>
+        <span><div class="menuItem" id="chicken">Chicken</div>
         <div class="menuDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur, lectus class posuere lobortis, massa lorem maximus purus, non accumsan tellus tortor et ante. Morbi vel porta ligula. Morbi eu mattis justo. Cras vestibulum nisl sed nunc lobortis, vehicula maximus magna feugiat. Curabitur tellus lectus, varius et sollicitudin et, pharetra a dolor. Fusce vel semper ex. Aliquam venenatis at nunc eget pulvinar. Aliquam erat volutpat. Proin tincclassunt enim non varius rutrum.<br>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur, lectus class posuere lobortis, massa lorem maximus purus, non accumsan tellus tortor et ante. Morbi vel porta ligula. Morbi eu mattis justo. Cras vestibulum nisl sed nunc lobortis, vehicula maximus magna feugiat. Curabitur tellus lectus, varius et sollicitudin et, pharetra a dolor. Fusce vel semper ex. Aliquam venenatis at nunc eget pulvinar. Aliquam erat volutpat. Proin tincclassunt enim non varius rutrum. <br>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur, lectus class posuere lobortis, massa lorem maximus purus, non accumsan tellus tortor et ante. Morbi vel porta ligula. Morbi eu mattis justo. Cras vestibulum nisl sed nunc lobortis, vehicula maximus magna feugiat. Curabitur tellus lectus, varius et sollicitudin et, pharetra a dolor. Fusce vel semper ex. Aliquam venenatis at nunc eget pulvinar. Aliquam erat volutpat. Proin tincclassunt enim non varius rutrum.</div>
+        </span>
 
       </a>
     </div>
   </div>
 
   <div class="row">
-    <div class="col-xs-12">
+    <div id="beef-tile" class="col-xs-12 col-centered">
       <a href="#beef">
         <div class="menuItem" id="beef">Beef</div>
         <div class="menuDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur, lectus class posuere lobortis, massa lorem maximus purus, non accumsan tellus tortor et ante. Morbi vel porta ligula. Morbi eu mattis justo. Cras vestibulum nisl sed nunc lobortis, vehicula maximus magna feugiat. Curabitur tellus lectus, varius et sollicitudin et, pharetra a dolor. Fusce vel semper ex. Aliquam venenatis at nunc eget pulvinar. Aliquam erat volutpat. Proin tincclassunt enim non varius rutrum.<br>
@@ -89,7 +87,7 @@
   </div>
 
   <div class="row">
-    <div class="col-xs-12">
+    <div id="sushi-tile" class="col-xs-12 col-centered">
       <a href="#sushi">
         <div class="menuItem" id="sushi">Sushi</div>
         <div class="menuDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur, lectus class posuere lobortis, massa lorem maximus purus, non accumsan tellus tortor et ante. Morbi vel porta ligula. Morbi eu mattis justo. Cras vestibulum nisl sed nunc lobortis, vehicula maximus magna feugiat. Curabitur tellus lectus, varius et sollicitudin et, pharetra a dolor. Fusce vel semper ex. Aliquam venenatis at nunc eget pulvinar. Aliquam erat volutpat. Proin tincclassunt enim non varius rutrum.<br>

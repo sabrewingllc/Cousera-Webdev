@@ -9,7 +9,7 @@ body {
 	font-family: 'Oxygen', sans-serif;
 }
 
-#header-nav {
+.navbar {
 	background-color: #A19F9A;
 	border: 0;
 }
@@ -24,6 +24,7 @@ body {
 */
 
 .navbar-brand {
+	background-color: #A19F9A;
 	color: #000000;
 	height: 70px;
 }
@@ -44,8 +45,10 @@ body {
 .navbar-default .navbar-nav>li>a {
 	color: #000000;
 }
+
 #collapsable-nav {
-	background-color: #FFFFFF;
+	/* background-color: #FFFFFF;  */
+	padding: 0;
 }
 #nav-list {
 	margin: 0;
@@ -71,7 +74,8 @@ body {
 	background-color: #A19F9A;
 	padding: 15px;
 	border: none;
-	margin: 10px;
+	margin: 10px 10px 0px 10px;
+
 }
 
 .col-xs-12 a {

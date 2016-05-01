@@ -61,16 +61,17 @@ body {
 	margin: 0;
 	color: #000000;
 	background-color: #FFFFFF;
+
 }
 
 #nav-list li {
 	text-align: center;
-	border: 3px;
-	border-color: black;
+	border-bottom: solid black 1px;
 }
 #nav-list a {
 	text-align: center;
 	color: black;
+
 }
 #nav-list a:hover {
 	background: #e7e7e7;
@@ -123,4 +124,7 @@ body {
 	width: 75%;
 	margin-bottom: 15px;
 	}
+}
+li {
+	border-bottom: solid black 1px; 
 }
